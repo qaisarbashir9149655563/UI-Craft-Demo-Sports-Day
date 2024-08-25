@@ -1,0 +1,6 @@
+.selectedEvents-container {
+  border: 2px solid black;
+  margin: 10px;
+  width: 94%;
+  text-align: center;
+}

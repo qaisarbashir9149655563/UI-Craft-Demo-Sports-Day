@@ -1,0 +1,22 @@
+.event-container {
+  margin: 10px;
+  border: 2px solid black;
+  width: 94%;
+}
+.event-heading {
+  text-align: center;
+}
+.line-container {
+  display: flex;
+  justify-content: center; /* Center-align the line horizontally */
+}
+
+.half-line {
+  width: 50%; /* Half the width of the container */
+  border-top: 2px solid black; /* Line style */
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
